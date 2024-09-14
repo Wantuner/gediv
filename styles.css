@@ -43,7 +43,18 @@ header{
 header img{
    max-width: 200px; 
    margin-bottom: 20px;
+   animation: float 3s ease-in-out infinite;
 }
+
+@keyframes float{
+    0%, 100%{
+        transform: translatey(0)
+    }
+    50%{
+        transform: translatey(-50px);
+    }
+}
+
 /*@gedivunifametro*/
 header h1{
     font-size: 3em;
@@ -79,6 +90,7 @@ a.link i{
 a.link button:hover, footer a.btn-footer:hover{
     transform: scale(1.05);
 }
+
 /**
 RODAPÉ
 
