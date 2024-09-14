@@ -1,0 +1,100 @@
+/* Classe gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", system-ui;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: #282828;
+    height: 100%;
+}
+
+.container{
+   height: 100%;
+   max-width: 580px;
+   margin: 0 auto;
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   padding: 20px;
+   color: #ffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.degrad{
+    background: linear-gradient(to right,#f9830e, #c46817);
+}
+/*Estilo do Cabeçalho*/
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+/*Foto de perfil*/
+header img{
+   max-width: 200px; 
+   margin-bottom: 20px;
+}
+/*@gedivunifametro*/
+header h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
+/* Estilos dos botoes dos links*/
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffff;
+    transition: .2s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footer:hover{
+    transform: scale(1.05);
+}
+/**
+RODAPÉ
+
+footer{
+    text-align: center;
+    margin: 40px;
+}
+
+footer a.btn-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin:  0 10px;
+    transition: .2s;
+}
+**/
